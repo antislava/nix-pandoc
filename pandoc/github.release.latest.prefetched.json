@@ -1,0 +1,74 @@
+[
+  {
+    "nameCore": "pandoc",
+    "platform": "amd64",
+    "urlsha": {
+      "sha256": "09rb4wbw43d8xvhm8mfpjvsxlxm69bns5wbd4h8430lk1b6s3z2y",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-1-amd64.deb"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "linux",
+    "urlsha": {
+      "sha256": "1hl3a7g6i4q2xcvdnmqmjvh2iywk50fcfbdwavpdw0596wzgfhb7",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-linux.tar.gz"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "macOS",
+    "urlsha": {
+      "sha256": "1dsq5b74va6bv61da02qjvshgmjnx90y164vp4byiwzyyx2n7kly",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-macOS.pkg"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "macOS",
+    "urlsha": {
+      "sha256": "05bbifl3lqdsb1wy18rrdbp8hlci7fi1rs7zp2xnsddqkn19cb5l",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-macOS.zip"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "windows-i386",
+    "urlsha": {
+      "sha256": "1m1b3kg3faj04vl6qvy1b2m9sk9zxfhv4nnhz407yyzy1m0pq39w",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-windows-i386.msi"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "windows-i386",
+    "urlsha": {
+      "sha256": "02khv6vgll8yi25hig7gj1z1z0sngi1s5nq10r56lbhvkscc8wdp",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-windows-i386.zip"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "windows-x86_64",
+    "urlsha": {
+      "sha256": "0mnp95wcdpsm7jl0941gwq4ivp8m70qni63qkgxm3qm3pi84x2as",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-windows-x86_64.msi"
+    },
+    "version": "2.7.2"
+  },
+  {
+    "nameCore": "pandoc",
+    "platform": "windows-x86_64",
+    "urlsha": {
+      "sha256": "1wi9y7nk2x2jgh6vhdwdscg4j0mmi30qnw4v2dhdqpcwh89a3s5v",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.7.2/pandoc-2.7.2-windows-x86_64.zip"
+    },
+    "version": "2.7.2"
+  }
+]
