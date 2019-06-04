@@ -1,5 +1,6 @@
 [
   {
+    "extension": "deb",
     "nameCore": "pandoc",
     "platform": "amd64",
     "urlsha": {
@@ -9,6 +10,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "tar.gz",
     "nameCore": "pandoc",
     "platform": "linux",
     "urlsha": {
@@ -18,6 +20,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "pkg",
     "nameCore": "pandoc",
     "platform": "macOS",
     "urlsha": {
@@ -27,6 +30,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "zip",
     "nameCore": "pandoc",
     "platform": "macOS",
     "urlsha": {
@@ -36,6 +40,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "msi",
     "nameCore": "pandoc",
     "platform": "windows-i386",
     "urlsha": {
@@ -45,6 +50,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "zip",
     "nameCore": "pandoc",
     "platform": "windows-i386",
     "urlsha": {
@@ -54,6 +60,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "msi",
     "nameCore": "pandoc",
     "platform": "windows-x86_64",
     "urlsha": {
@@ -63,6 +70,7 @@
     "version": "2.7.2"
   },
   {
+    "extension": "zip",
     "nameCore": "pandoc",
     "platform": "windows-x86_64",
     "urlsha": {
