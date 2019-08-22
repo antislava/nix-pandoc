@@ -1,81 +1,11 @@
 [
   {
-    "extension": "deb",
-    "nameCore": "pandoc",
-    "platform": "amd64",
-    "urlsha": {
-      "sha256": "129aixy96192g6icjq161hj046vkdiglsj2v1b5b8rrfg1lrihjx",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-1-amd64.deb"
-    },
-    "version": "2.7.3"
-  },
-  {
     "extension": "tar.gz",
     "nameCore": "pandoc",
     "platform": "linux",
     "urlsha": {
       "sha256": "0xfvmfw1yn72iiy52ia7sk6hgrvn62qwkw009l02j0y55va5yxzb",
       "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-linux.tar.gz"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "pkg",
-    "nameCore": "pandoc",
-    "platform": "macOS",
-    "urlsha": {
-      "sha256": "0livxyq05av4h37ix6iq7h95iznv2ar6pph2q9ln4n0zxfvx82q4",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-macOS.pkg"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "zip",
-    "nameCore": "pandoc",
-    "platform": "macOS",
-    "urlsha": {
-      "sha256": "1w2gams8hq6bzvfj5f3rj6f62sq81lcfd3j1pmfv1ypkj06814zv",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-macOS.zip"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "msi",
-    "nameCore": "pandoc",
-    "platform": "windows-i386",
-    "urlsha": {
-      "sha256": "0z1asxwn0qj3a8rk4qzdv3qi94vk3mr87b40qgbhr5d0pq8xj7l4",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-windows-i386.msi"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "zip",
-    "nameCore": "pandoc",
-    "platform": "windows-i386",
-    "urlsha": {
-      "sha256": "185m5cmw195shdp3935azqcnmpj8a2av12j9x1p2sis8askh6fxn",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-windows-i386.zip"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "msi",
-    "nameCore": "pandoc",
-    "platform": "windows-x86_64",
-    "urlsha": {
-      "sha256": "0dx51fvhww0cyqs5qw1x9mfmcddrmklnqaala3g8vhcahqbfa4qx",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-windows-x86_64.msi"
-    },
-    "version": "2.7.3"
-  },
-  {
-    "extension": "zip",
-    "nameCore": "pandoc",
-    "platform": "windows-x86_64",
-    "urlsha": {
-      "sha256": "1ah6b67n082ix45bvyy845lpxbwm0ry469fq19fk4mfsw8rdpdyq",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.7.3/pandoc-2.7.3-windows-x86_64.zip"
     },
     "version": "2.7.3"
   }

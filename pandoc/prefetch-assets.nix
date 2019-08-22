@@ -7,7 +7,7 @@ let
 #      -> [ "pandoc" "2.7.2" "-1" "1" "amd64" "deb" ]
 # "pandoc-2.7.2-linux.tar.gz"
 #      -> [ "pandoc" "2.7.2" null null "linux" "tar.gz" ]
-    in {
+    in if i == null then {} else {
       nameCore  = elemAt i 0;
       version   = elemAt i 1;
       platform  = elemAt i 4;
@@ -19,4 +19,7 @@ let
       # data = a;
     };
 in
-  map extractAsset release.assets
+  # filter (a: a ? "nameCore") (map extractAsset release.assets)
+  # Keeping only linux binaries (can be controlled by a input variable)
+  filter (a: a.platform or "" == "linux")
+    (map extractAsset release.assets)
