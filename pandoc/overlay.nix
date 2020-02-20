@@ -1,15 +1,15 @@
 self: pkgs:
 with builtins;
 let
-  assetsAll = fromJSON (readFile ./github.release.latest.prefetched.json);
-  assetsLinux = filter (p: p.platform == "linux") assetsAll;
-  p = head assetsLinux;
+  assetsAll = with builtins; fromJSON (readFile ./github.release.latest.prefetched.json);
+  assetsLinux = builtins.filter (p: p.platform or "" == "linux-amd64") assetsAll;
+  p = builtins.head assetsLinux;
 in
   {
     pandoc-bin = pkgs.stdenv.mkDerivation {
       name         = p.nameCore;
       version      = p.version;
-      src          = fetchurl p.urlsha;
+      src          = builtins.fetchurl p.urlsha;
       installPhase = ''
         mkdir -p $out/bin
         mkdir -p $out/etc/bash_completion.d

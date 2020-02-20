@@ -20,11 +20,19 @@ $(PANDOC_LTST).json :
 $(PANDOC_LTST).prefetched.json : $(PANDOC_LTST).json
 	nix eval "(import $(PANDOC)/prefetch-assets.nix)" --json | shab | jq -r > $@
 
+# .PHONY : $(PANDOC_LTST).print-asset-names
+$(PANDOC_LTST).print-asset-names :
+%.print-asset-names : %.json
+	jq .assets[].name < $<
+
 .PHONY : shell-test
 shell-test :
 	nix-shell ./test-shell.nix
+
+$(info MESSAGE: pandoc builds but SEGFAULTS (in the test shell)!)
 
 # ########################################################################
 # Switched from jq (below) to nix eval for better consistency
 # $(SRC_URL)/%.github.release.linux.json : $(SRC_URL)/%.github.release.json
 # 	jq '{ name, tag_name, created_at, "assets": [ .assets[] | select(.name | contains("linux") and contains("tar")) | { name, url: .browser_download_url, sha256: ("$$(nix-prefetch-url " + .browser_download_url +")") } ] }' $< | shab > $@
+
