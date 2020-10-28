@@ -4,9 +4,9 @@
     "nameCore": "pandoc",
     "platform": "linux-amd64",
     "urlsha": {
-      "sha256": "022x364571xl2cy7pzybjmvyp6ds5nphdjwv8xlf5hb6c5dib7q3",
-      "url": "https://github.com/jgm/pandoc/releases/download/2.9.2/pandoc-2.9.2-linux-amd64.tar.gz"
+      "sha256": "1h3ag112x8k6fdnwcd9jdzcmh3ydgfzps1314ils0gzqxzrp1q4l",
+      "url": "https://github.com/jgm/pandoc/releases/download/2.11.0.4/pandoc-2.11.0.4-linux-amd64.tar.gz"
     },
-    "version": "2.9.2"
+    "version": "2.11.0.4"
   }
 ]

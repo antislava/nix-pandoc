@@ -14,10 +14,10 @@ in
         mkdir -p $out/bin
         mkdir -p $out/etc/bash_completion.d
         install -D -m555 -T bin/pandoc $out/bin/pandoc
-        install -D -m555 -T bin/pandoc-citeproc $out/bin/pandoc-citeproc
         $out/bin/pandoc --bash-completion > $out/etc/bash_completion.d/pandoc-completion.bash
         cp -a share $out
       '';
+        # install -D -m555 -T bin/pandoc-citeproc $out/bin/pandoc-citeproc # REPLACED with pandoc --citeproc!
     };
   }
 
